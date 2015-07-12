@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+
+<title>Zenith | Screen Layout</title>
+<meta name="author" content="Aleksej Vukomanovic" />
+<meta name="contact" content="aleksejvu@gmail.com" />
+<meta name="copyright" content="Copyright (c)2015 -
+ Aleksej Vukomanovic. All Rights Reserved." />
+  <meta name="robots" content="noindex,follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<style type="text/css">
+   p{padding:20px; text-align: justify;}
+   a.button{padding: 10px 20px; background: cornflowerblue; border: 1px solid aliceblue;}
+   .buttons{text-align: center;}
+</style>
+    
+</head>
+
+<body>
+
+<nav>
+    <ul>
+      <li><a href="default.html">Default Layout</a></li>
+      <li><a href="hand.html">Hand Layout</a></li>
+      <li class="active"><a href="screen.html">Screen Layout</a></li>
+      <li>
+          <a href="#">Slider Layout</a>
+          <ul>
+            <li><a href="slider.html">Regular Slider</a></li>
+            <li><a href="full-width.html">Full-Width Slider</a></li>
+            <li><a href="thumbs.html">Slider with Thumbnails</a></li>
+            <li><a href="tabs.html">Slider with Tabs</a></li>
+            <li><a href="testimonials.html">Testimonials Slider</a></li>
+          </ul>
+      </li>
+      <li><a href="multi-1.html">Multiple Sliders eg. 1</a></li>
+      <li><a href="multi-2.html">Multiple Sliders eg. 2</a></li>
+    </ul>
+ </nav>  
+ 
+    <section id="highlights" class="tf_slider">
+       
+       <div class="inner-circle clearfix">               
+              
+            <div class="highlights-cta">
+                <h3>Zenith Slider</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula ege t dolor. Aenean massa.</p>
+                <div class="buttons">
+                  <a class="button">Live View</a>
+                  <a class="button">Get It</a>
+                </div>  
+
+            </div>
+            
+            <div id="mac-book">
+                <div class="ratio"></div>
+                <div id="mac-screen">
+                    <div class="hgh-linner hgi" data-index="0">
+                    <img width="190" height="320" src="http://themeflection.com/demo/appinator/wp-content/uploads/2015/05/screen.png" class="attachment-highlight wp-post-image" alt="screen" />    </div>
+                          <div class="hgh-linner hgi" data-index="1">
+                    <img width="234" height="398" src="http://themeflection.com/demo/appinator/wp-content/uploads/2015/05/screensdst-234x398.jpg" class="attachment-highlight wp-post-image" alt="screensdst" />    </div>
+                          <div class="hgh-linner hgi" data-index="2">
+                    <img width="234" height="398" src="http://themeflection.com/demo/appinator/wp-content/uploads/2015/05/screen_09-234x398.jpg" class="attachment-highlight wp-post-image" alt="screen_09" />    </div>
+                          <div class="hgh-rinner hgi" data-index="3">
+                    <img width="234" height="398" src="http://themeflection.com/demo/appinator/wp-content/uploads/2015/05/screen_07-234x398.jpg" class="attachment-highlight wp-post-image" alt="screen_07" />    </div>
+                          <div class="hgh-rinner hgi" data-index="4">
+                    <img width="234" height="398" src="http://themeflection.com/demo/appinator/wp-content/uploads/2015/05/screen_08-234x398.jpg" class="attachment-highlight wp-post-image" alt="screen_08" />    </div>
+                          <div class="hgh-rinner hgi" data-index="5">
+                    <img width="234" height="398" src="http://themeflection.com/demo/appinator/wp-content/uploads/2015/05/screen_06-234x398.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    </div>
+
+                    <span id="left"></span>
+                    <span id="right"></span>
+                    <div id="bullet-navs"></div>
+                </div>
+            </div>
+
+      </div>    
+  
+    </section><!--Highlights close-->
+
+     <div class="src">
+        <h4>Init</h4>
+        <code><pre>
+            $('#highlights').zenith({
+                layout: 'screen'
+            });
+        </pre></code>
+    </div>    
+
+    <footer>
+      Copyright &copy; themeflection.com All rights reserved 
+    </footer>
+
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/zenith.js"></script>
+<script type="text/javascript">
+      $('#highlights').zenith({
+          layout: 'screen'
+      });
+</script>
+
+</body>

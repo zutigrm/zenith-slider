@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+
+<title>Zenith | Slider Layout</title>
+<meta name="author" content="Aleksej Vukomanovic" />
+<meta name="contact" content="aleksejvu@gmail.com" />
+<meta name="copyright" content="Copyright (c)2015 -
+ Aleksej Vukomanovic. All Rights Reserved." />
+  <meta name="robots" content="noindex,follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<style type="text/css">
+   p{padding:20px; text-align: justify;}
+   .tf_container .tf_slide{width: 100%; height: 470px; text-align: center; font-size: 1.89em; padding-top: 160px; color: #555; text-shadow: 1px 2px 1px black;}
+</style>
+    
+</head>
+
+<body>
+
+    <section id="s" class="clearfix tf_slider">       
+              
+            <div class="tf_container">
+                <div class="tf_slide">Item 1</div>  
+                <div class="tf_slide">Item 2</div> 
+                <div class="tf_slide">Item 3</div> 
+                <div class="tf_slide">Item 4</div> 
+                <div class="tf_slide">Item 5</div> 
+                <div class="tf_slide">Item 6</div> 
+                <div class="tf_slide">Item 7</div> 
+           
+                <span id="left"></span>
+                <span id="right"></span>
+                <div id="bullet-navs"></div>
+            </div>    
+
+    </section><!--Highlights close-->
+
+    <nav>
+    <ul>
+      <li><a href="default.html">Default Layout</a></li>
+      <li><a href="hand.html">Hand Layout</a></li>
+      <li><a href="screen.html">Screen Layout</a></li>
+      <li class="active">
+          <a href="#">Slider Layout</a>
+          <ul>
+            <li><a href="slider.html">Regular Slider</a></li>
+            <li><a href="full-width.html">Full-Width Slider</a></li>
+            <li><a href="thumbs.html">Slider with Thumbnails</a></li>
+            <li><a href="tabs.html">Slider with Tabs</a></li>
+            <li><a href="testimonials.html">Testimonials Slider</a></li>
+          </ul>
+      </li>
+      <li><a href="multi-1.html">Multiple Sliders eg. 1</a></li>
+      <li><a href="multi-2.html">Multiple Sliders eg. 2</a></li>
+    </ul>
+ </nav>  
+
+    <div class="src">
+        <h4>Init</h4>
+        <code><pre>
+           $('#s').zenith({
+               layout: 'slider', 
+               animation: 'Zoom',
+               slideSpeed: 750,
+               fullWidth: true
+           });
+        </pre></code>
+    </div>    
+
+    <footer>
+      Copyright &copy; themeflection.com All rights reserved 
+    </footer>    
+
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/zenith.js"></script>
+<script type="text/javascript">
+      $('#s').zenith({
+          layout: 'slider', 
+          animation: 'Zoom',
+          fullWidth: true,
+          slideSpeed: 750
+      });
+
+</script>
+
+</body>

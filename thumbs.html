@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<head>
+
+<title>Zenith | Slider with Thumbs</title>
+<meta name="author" content="Aleksej Vukomanovic" />
+<meta name="contact" content="aleksejvu@gmail.com" />
+<meta name="copyright" content="Copyright (c)2015 -
+ Aleksej Vukomanovic. All Rights Reserved." />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<style type="text/css">
+   p{padding:20px; text-align: justify;}
+
+</style>    
+</head>
+
+<body>
+
+<nav>
+    <ul>
+      <li><a href="default.html">Default Layout</a></li>
+      <li><a href="hand.html">Hand Layout</a></li>
+      <li><a href="screen.html">Screen Layout</a></li>
+      <li>
+          <a href="#">Slider Layout</a>
+          <ul>
+            <li><a href="slider.html">Regular Slider</a></li>
+            <li><a href="full-width.html">Full-Width Slider</a></li>
+            <li class="active"><a href="thumbs.html">Slider with Thumbnails</a></li>
+            <li><a href="tabs.html">Slider with Tabs</a></li>
+            <li><a href="testimonials.html">Testimonials Slider</a></li>
+          </ul>
+      </li>
+      <li><a href="multi-1.html">Multiple Sliders eg. 1</a></li>
+      <li><a href="multi-2.html">Multiple Sliders eg. 2</a></li>
+    </ul>
+ </nav>  
+
+  <section id="first" class="clearfix tf_slider">       
+              
+            <div class="tf_container">
+
+                <div class="tf_slide">
+                    <img data-caption="Kittens" src="images/img1.jpg" alt="slide1" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img data-caption="Hidden Forrest" src="images/img2.jpg" alt="slide2" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img3.jpg" alt="slide3" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img4.jpg" alt="slide4" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img5.jpg" alt="slide5" />
+                </div>  
+
+                <span id="left"></span>
+                <span id="right"></span>
+
+                <div id="tf_thumbs" class="">
+                    <div class="tf_thumb"><img src="images/thumb1.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb2.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb3.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb4.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb5.jpg"/></div>
+                </div>
+
+            </div>
+       
+    </section><!--Highlights close-->
+
+     <section id="second" class="clearfix tf_slider">       
+              
+            <div class="tf_container">
+
+                <div class="tf_slide">
+                    <img data-caption="Kittens" src="images/img1.jpg" alt="slide1" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img data-caption="Hidden Forrest" src="images/img2.jpg" alt="slide2" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img3.jpg" alt="slide3" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img4.jpg" alt="slide4" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img5.jpg" alt="slide5" />
+                </div>  
+
+                <span id="left"></span>
+                <span id="right"></span>
+
+                <div id="tf_thumbs" class="">
+                    <div class="tf_thumb"><img src="images/thumb1.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb2.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb3.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb4.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb5.jpg"/></div>
+                </div>
+
+            </div>
+       
+    </section><!--Second close-->
+
+    <section id="third" class="clearfix tf_slider">       
+              
+            <div class="tf_container">
+
+                <div class="tf_slide">
+                    <img data-caption="Kittens" src="images/img1.jpg" alt="slide1" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img data-caption="Hidden Forrest" src="images/img2.jpg" alt="slide2" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img3.jpg" alt="slide3" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img4.jpg" alt="slide4" />
+                </div> 
+
+                <div class="tf_slide">
+                    <img src="images/img5.jpg" alt="slide5" />
+                </div>  
+
+                <span id="left"></span>
+                <span id="right"></span>
+
+                <div id="tf_thumbs" class="">
+                    <div class="tf_thumb"><img src="images/thumb1.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb2.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb3.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb4.jpg"/></div>
+                    <div class="tf_thumb"><img src="images/thumb5.jpg"/></div>
+                </div>
+
+            </div>
+       
+    </section><!--Third close-->
+
+    <div class="src">
+        <h4>Init</h4>
+        <code><pre>
+        $('#first').zenith({
+            layout: 'slider', 
+            width: '90%', 
+            height: '600px', 
+            slideSpeed: 600, 
+            style: 'shadow', 
+            customNavs: ['#tf_thumbs', '.tf_thumb']
+        });
+
+        $('#second').zenith({
+            layout: 'slider', 
+            animation: 'Bounce', 
+            width: '95%', 
+            height: '760px', 
+            slideSpeed: 670, 
+            style: 'border', 
+            customNavs: ['#tf_thumbs', '.tf_thumb'],
+            fixedThumbs: false
+        });
+
+        $('#third').zenith({
+            layout: 'slider', 
+            width: '75%', 
+            height: '600px', 
+            slideSpeed: 600, 
+            style: 'shadow', 
+            customNavs: ['#tf_thumbs', '.tf_thumb'],
+            navPosition: 'right',
+            direction: 'vertical'
+        });
+        </pre></code>
+    </div>    
+
+    <footer>
+      Copyright &copy; themeflection.com All rights reserved 
+    </footer>
+
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/zenith.js"></script>
+<script type="text/javascript">
+      $('#first').zenith({
+            layout: 'slider',
+            width: '90%', 
+            height: '600px', 
+            slideSpeed: 600, 
+            style: 'shadow', 
+            customNavs: ['#tf_thumbs', '.tf_thumb']
+      });
+      $('#second').zenith({
+            layout: 'slider', 
+            animation: 'Bounce', 
+            width: '95%', 
+            height: '760px', 
+            slideSpeed: 670, 
+            style: 'border', 
+            customNavs: ['#tf_thumbs', '.tf_thumb'],
+            fixedThumbs: false,
+            thumbsBG : false
+      });
+      $('#third').zenith({
+            layout: 'slider',
+            width: '75%', 
+            height: '600px', 
+            slideSpeed: 600, 
+            style: 'shadow', 
+            customNavs: ['#tf_thumbs', '.tf_thumb'],
+            navPosition: 'right',
+            direction: 'vertical'
+      });
+</script>
+
+</body>
