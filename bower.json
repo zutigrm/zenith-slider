@@ -1,0 +1,25 @@
+{
+  "name": "zenith",
+  "version": "1.1",
+  "homepage": "http://themeflection.com/plug/responsive-slider-jquery-plugin/",
+  "license": "MIT",
+  "main": [
+    "js/zenith.min.js",
+    "css/style.css",
+	"css/font-awesome.min.css",
+	"css/animate.min.css"
+  ],
+  "keywords": [
+    "zenith",
+    "slider",
+    "content slider",
+    "responsive slider"
+  ],
+  "ignore": [
+    "**/.*",
+    "*.md"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
