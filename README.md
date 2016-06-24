@@ -3,6 +3,8 @@ Responsive Slider jQuery Plugin that comes in 4 basic layouts. 4-th layout, or s
 
 <em>For detailed description, documentation and demos - go to <a href="http://themeflection.com/plug/responsive-slider-jquery-plugin/">Plugin Home</a></em>
 
+If you are looking for Free wordrpess plugin go <a href="http://themeflection.com/plug/responsive-wordpress-slider/">here</a>
+
 <h2>Quick Overview</h2>
 <h3>Dependencies</h3>
 <h4>CSS</h4>
